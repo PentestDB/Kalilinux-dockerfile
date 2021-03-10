@@ -2,7 +2,7 @@
 Must have / vulture studio code and docker extensions
 Create docker images with command
 *******docker build -t kali******** .
-docker run -h "kali-linux" -t -i kali /bin/bash
+docker run -h "kali-linux" -t -i -p 222:22 kali /bin/bash
 
 In this Dockerfile you can install Tools.
 FROM kalilinux / kali: latest
